@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_breadcrumb_menu/flutter_breadcrumb_menu.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/util/text-null-if-empty.dart';
-import 'package:inside_chassidus/widgets/media-list/index.dart';
+import 'package:shaar_hayichud/util/text-null-if-empty.dart';
+import 'package:shaar_hayichud/widgets/media-list/index.dart';
 
 /// Route to display all of the lessons for a given section.
 class LessonRoute extends StatelessWidget {

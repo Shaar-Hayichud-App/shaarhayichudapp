@@ -1,7 +1,7 @@
 import 'package:audio_service/audio_service.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
-import 'package:inside_chassidus/blocs/is-player-buttons-showing.dart';
+import 'package:shaar_hayichud/blocs/is-player-buttons-showing.dart';
 import 'package:just_audio_service/position-manager/position-manager.dart';
 import 'package:rxdart/rxdart.dart';
 

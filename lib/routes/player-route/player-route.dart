@@ -1,9 +1,9 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/routes/player-route/widgets/index.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class-service.dart';
-import 'package:inside_chassidus/widgets/media/audio-button-bar.dart';
+import 'package:shaar_hayichud/routes/player-route/widgets/index.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class-service.dart';
+import 'package:shaar_hayichud/widgets/media/audio-button-bar.dart';
 import 'package:just_audio_service/download-manager/download-manager.dart';
 import 'package:just_audio_service/widgets/download-button.dart';
 

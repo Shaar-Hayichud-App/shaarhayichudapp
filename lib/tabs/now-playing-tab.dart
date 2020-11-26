@@ -1,7 +1,7 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
-import 'package:inside_chassidus/routes/player-route/index.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class-service.dart';
+import 'package:shaar_hayichud/routes/player-route/index.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class-service.dart';
 
 class NowPlayingTab extends StatelessWidget {
   @override

@@ -1,8 +1,8 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:inside_chassidus/tabs/widgets/simple-media-list-widgets.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class-service.dart';
+import 'package:shaar_hayichud/tabs/widgets/simple-media-list-widgets.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class-service.dart';
 
 class FavoritesTab extends StatelessWidget {
   @override

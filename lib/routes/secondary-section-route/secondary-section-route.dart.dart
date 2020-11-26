@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_breadcrumb_menu/flutter_breadcrumb_menu.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/routes/secondary-section-route/widgets/index.dart';
-import 'package:inside_chassidus/routes/ternary-section-route.dart';
-import 'package:inside_chassidus/widgets/inside-navigator.dart';
-import 'package:inside_chassidus/widgets/media-list/media-item.dart';
-import 'package:inside_chassidus/widgets/section-content-list.dart';
+import 'package:shaar_hayichud/routes/secondary-section-route/widgets/index.dart';
+import 'package:shaar_hayichud/routes/ternary-section-route.dart';
+import 'package:shaar_hayichud/widgets/inside-navigator.dart';
+import 'package:shaar_hayichud/widgets/media-list/media-item.dart';
+import 'package:shaar_hayichud/widgets/section-content-list.dart';
 
 /// Displays contents of a site section. All subsections and lessons.
 class SecondarySectionRoute extends StatelessWidget {

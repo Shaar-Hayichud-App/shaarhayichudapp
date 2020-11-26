@@ -3,7 +3,7 @@ import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/widgets/media-list/play-button.dart';
+import 'package:shaar_hayichud/widgets/media-list/play-button.dart';
 import 'package:just_audio_service/position-manager/position-manager.dart';
 
 class AudioButtonBar extends StatelessWidget {

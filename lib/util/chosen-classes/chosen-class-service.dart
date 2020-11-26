@@ -4,8 +4,8 @@ import 'package:hive/hive.dart';
 // ignore: implementation_imports
 import 'package:hive/src/hive_impl.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class.dart';
-import 'package:inside_chassidus/util/extract-id.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class.dart';
+import 'package:shaar_hayichud/util/extract-id.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart' as p;
 import 'package:hive_flutter/hive_flutter.dart';

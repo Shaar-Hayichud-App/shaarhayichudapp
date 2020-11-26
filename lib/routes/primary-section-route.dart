@@ -3,7 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
 import 'package:inside_api/site-service.dart';
-import 'package:inside_chassidus/widgets/navigate-to-section.dart';
+import 'package:shaar_hayichud/widgets/navigate-to-section.dart';
 
 class PrimarySectionsRoute extends StatelessWidget {
   static const String routeName = '/library';

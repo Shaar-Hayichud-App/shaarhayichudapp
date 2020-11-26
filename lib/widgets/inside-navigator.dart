@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
 
-/// Simplify navigation to a route which depends on inside chassidus data.
+/// Simplify navigation to a route which depends on Shaar Hayichud Classes data.
 class InsideNavigator extends StatelessWidget {
   final String routeName;
   final Widget child;

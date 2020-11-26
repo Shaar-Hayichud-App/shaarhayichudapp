@@ -2,8 +2,8 @@ import 'package:audio_service/audio_service.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/util/audio-service/audio-task.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class-service.dart';
+import 'package:just_audio_service/position-manager/positioned-audio-task.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class-service.dart';
 import 'package:just_audio_service/download-manager/download-manager.dart';
 import 'package:just_audio_service/position-manager/position-manager.dart';
 import 'package:just_audio_service/download-manager/download-audio-task.dart';
@@ -37,7 +37,8 @@ class PlayButton extends StatelessWidget {
           if (!AudioService.running) {
             AudioService.start(
                     backgroundTaskEntrypoint: _audioServiceEntryPoint,
-                    androidNotificationChannelName: "Inside Chassidus Class",
+                    androidNotificationChannelName:
+                        "Shaar Hayichud Classes Class",
                     androidStopForegroundOnPause: true,
                     params: DownloadAudioTask.createStartParams(
                         BlocProvider.getDependency<ForgroundDownloadManager>()))
@@ -83,5 +84,6 @@ class PlayButton extends StatelessWidget {
 }
 
 _audioServiceEntryPoint() {
-  AudioServiceBackground.run(() => LoggingAudioTask());
+  AudioServiceBackground.run(
+      () => DownloadAudioTask(audioTask: PositionedAudioTask.standard()));
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/widgets/media-list/media-item.dart';
+import 'package:shaar_hayichud/widgets/media-list/media-item.dart';
 
 class MediaList extends StatelessWidget {
   final Widget leadingWidget;

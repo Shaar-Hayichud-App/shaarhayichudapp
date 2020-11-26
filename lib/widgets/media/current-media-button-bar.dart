@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:inside_chassidus/widgets/media/audio-button-bar.dart';
-import 'package:inside_chassidus/widgets/media/is-global-buttons-showing-watcher.dart';
+import 'package:shaar_hayichud/widgets/media/audio-button-bar.dart';
+import 'package:shaar_hayichud/widgets/media/is-global-buttons-showing-watcher.dart';
 
 /// A button bar which always effects the current media, and is an empty
 /// container if there's nothing going on.

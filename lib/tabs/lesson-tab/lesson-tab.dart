@@ -2,13 +2,13 @@ import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_breadcrumb_menu/flutter_breadcrumb_menu.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/blocs/is-player-buttons-showing.dart';
-import 'package:inside_chassidus/routes/lesson-route/index.dart';
-import 'package:inside_chassidus/routes/player-route/player-route.dart';
-import 'package:inside_chassidus/routes/primary-section-route.dart';
-import 'package:inside_chassidus/routes/secondary-section-route/index.dart';
-import 'package:inside_chassidus/routes/ternary-section-route.dart';
-import 'package:inside_chassidus/util/bread-crumb-service.dart';
+import 'package:shaar_hayichud/blocs/is-player-buttons-showing.dart';
+import 'package:shaar_hayichud/routes/lesson-route/index.dart';
+import 'package:shaar_hayichud/routes/player-route/player-route.dart';
+import 'package:shaar_hayichud/routes/primary-section-route.dart';
+import 'package:shaar_hayichud/routes/secondary-section-route/index.dart';
+import 'package:shaar_hayichud/routes/ternary-section-route.dart';
+import 'package:shaar_hayichud/util/bread-crumb-service.dart';
 
 typedef RouteChangedCallback = void Function(RouteSettings);
 
@@ -74,8 +74,6 @@ class LessonTab extends StatelessWidget {
 
           BlocProvider.getBloc<IsPlayerButtonsShowingBloc>()
               .isOtherButtonsShowing(isShowing: isMediaButtonsShowing);
-
-          onRouteChange(settings);
 
           return MaterialPageRoute(
               builder: (context) => Material(

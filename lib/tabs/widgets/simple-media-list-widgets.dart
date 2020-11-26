@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:inside_api/models.dart';
-import 'package:inside_chassidus/routes/player-route/index.dart';
-import 'package:inside_chassidus/util/chosen-classes/chosen-class.dart';
+import 'package:shaar_hayichud/routes/player-route/index.dart';
+import 'package:shaar_hayichud/util/chosen-classes/chosen-class.dart';
 
 /// A list of media, with navigation to a player.
 class MediaListTab extends StatelessWidget {
